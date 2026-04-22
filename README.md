@@ -41,14 +41,11 @@
 > [!CAUTION]
 > **This software is intended solely for authorized security testing, educational purposes, and defensive research.**
 > Unauthorized scanning, exploitation, or any form of intrusive activity against computer systems without explicit written permission from the system owner is **strictly prohibited** and may violate applicable laws, including but not limited to the Computer Fraud and Abuse Act (CFAA) in the United States, the Computer Misuse Act in the United Kingdom, and similar legislation worldwide.
-
 > By using this software, you acknowledge and agree that:
-
 > 1. You have obtained **explicit written authorization** from the owner of the target system(s) prior to any interaction.
 > 2. You assume **full legal and ethical responsibility** for all actions performed with this tool.
 > 3. The developers and contributors of this project **shall not be held liable** for any misuse, damage, or legal consequences resulting from the use or abuse of this software.
 > 4. This tool is provided **"as is"** without warranty of any kind, either expressed or implied.
-
 > If you do not agree with these terms, you must **immediately cease** using this software and delete all copies from your systems.
 
 ---
