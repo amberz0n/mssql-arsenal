@@ -1,3 +1,7 @@
+# LEGAL WARNING: This tool is for authorized security testing and educational purposes only.
+# Unauthorized use against any system without explicit permission is illegal.
+# The author assumes no liability for any misuse or damage caused by this tool.
+
 import os
 import sys
 import queue
