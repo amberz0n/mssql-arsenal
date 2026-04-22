@@ -267,7 +267,7 @@ MSSQL Arsenal can produce detailed reports in both **JSON** and **HTML** formats
 
 **Example HTML report:**
 
-[https://assets/report\_preview.png](https://raw.githubusercontent.com/amberz0n/mssql-arsenal/refs/heads/main/assets/report_preview.png)
+![alt](https://raw.githubusercontent.com/amberz0n/mssql-arsenal/refs/heads/main/assets/report_preview.png)
 
 ---
 
