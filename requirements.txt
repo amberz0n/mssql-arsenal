@@ -1,0 +1,7 @@
+pymssql>=2.2.7
+pyodbc>=5.0.0
+cryptography>=41.0.0
+PyQt6>=6.5.0
+tqdm>=4.65.0
+requests>=2.31.0
+PySocks>=1.7.1

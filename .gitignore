@@ -1,0 +1,76 @@
+# ==============================================
+# MSSQL Arsenal - Git Ignore File
+# ==============================================
+
+# --- Python 字节码 & 缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- 虚拟环境 ---
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# --- 数据库文件 (极其重要！包含明文密码！) ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+arsenal.db
+
+# --- 日志文件 ---
+*.log
+mssql_arsenal.log
+
+# --- 扫描报告输出 ---
+scan_report.*
+*.html.json
+report.html
+output.json
+
+# --- IDE 和编辑器配置 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# --- 操作系统杂项 ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- 打包与分发 ---
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- 环境变量文件 (如果包含敏感配置) ---
+.env.local
+.env.*.local
+
+# --- 测试与临时文件 ---
+*.tmp
+*.temp
+tmp/
+temp/

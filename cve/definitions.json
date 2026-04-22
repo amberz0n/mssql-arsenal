@@ -1,0 +1,45 @@
+{
+  "cves": [
+    {
+      "id": "CVE-2020-0618",
+      "title": "SQL Server Reporting Services RCE",
+      "risk": "high",
+      "detection": {
+        "type": "http",
+        "path": "/ReportServer",
+        "method": "GET",
+        "pattern": "Reporting Services"
+      }
+    },
+    {
+      "id": "CVE-2019-1068",
+      "title": "SQL Server RCE via sp_replwritetovarbin",
+      "risk": "critical",
+      "detection": {
+        "type": "sql",
+        "query": "SELECT OBJECT_ID('sp_replwritetovarbin')",
+        "expect": "non-null"
+      }
+    },
+    {
+      "id": "CVE-2020-0610",
+      "title": "SQL Server RCE via sp_execute_external_script",
+      "risk": "high",
+      "detection": {
+        "type": "sql",
+        "query": "SELECT value FROM sys.configurations WHERE name = 'external scripts enabled'",
+        "expect": "1"
+      }
+    },
+    {
+      "id": "CVE-2022-29143",
+      "title": "SQL Server for Linux Containers RCE",
+      "risk": "high",
+      "detection": {
+        "type": "sql",
+        "query": "SELECT @@VERSION",
+        "pattern": "Linux"
+      }
+    }
+  ]
+}
