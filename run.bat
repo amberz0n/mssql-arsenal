@@ -8,7 +8,7 @@ cls
 echo.
 echo   ================================================================================
 echo.
-echo                               MSSQL ARSENAL v2.0.0
+echo                               MSSQL ARSENAL v1.0.0
 echo                     Advanced MSSQL Vulnerability Assessment
 echo.
 echo   ================================================================================
