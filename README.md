@@ -285,7 +285,7 @@ Before submitting a pull request, ensure your changes do not introduce any funct
 
 ## 📄 License
 
-This project is licensed under the ​**GNU General Public License v3.0**​. See the [LICENSE](https://license/) file for full details.
+This project is licensed under the ​**GNU General Public License v3.0**​. See the [LICENSE](https://github.com/amberz0n/mssql-arsenal/blob/main/LICENSE) file for full details.
 
 > **Note on GPL‑3.0:**
 > This license ensures that any derivative work must also be open source under the same terms, promoting transparency and collective improvement within the security community.
