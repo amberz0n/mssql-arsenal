@@ -38,6 +38,7 @@
 
 ### English
 
+> [!CAUTION]
 > **This software is intended solely for authorized security testing, educational purposes, and defensive research.**
 
 > Unauthorized scanning, exploitation, or any form of intrusive activity against computer systems without explicit written permission from the system owner is **strictly prohibited** and may violate applicable laws, including but not limited to the Computer Fraud and Abuse Act (CFAA) in the United States, the Computer Misuse Act in the United Kingdom, and similar legislation worldwide.
@@ -55,6 +56,7 @@ If you do not agree with these terms, you must **immediately cease** using this 
 
 ### 中文
 
+> [!CAUTION]
 **本软件仅限用于合法授权的安全测试、教学研究及防御性分析。**
 未经系统所有者明确书面授权而对计算机系统进行扫描、漏洞利用或任何形式的入侵行为，均属**严格禁止**的违法行为，可能触犯《中华人民共和国刑法》第285条、第286条、《中华人民共和国网络安全法》以及世界其他国家和地区的相关法律法规。
 
