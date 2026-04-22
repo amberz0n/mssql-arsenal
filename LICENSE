@@ -652,7 +652,11 @@ Also add information on how to contact you by electronic and paper mail.
   If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
+<<<<<<< HEAD
     MSSQL Arsenal  Copyright (C) 2026  Your Name
+=======
+    <program>  Copyright (C) <year>  <name of author>
+>>>>>>> 08465ca1aa97acbf967fe6c4f9013a5c83609681
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type `show c' for details.
@@ -671,4 +675,8 @@ into proprietary programs.  If your program is a subroutine library, you
 may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
+<<<<<<< HEAD
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+=======
+<https://www.gnu.org/licenses/why-not-lgpl.html>.
+>>>>>>> 08465ca1aa97acbf967fe6c4f9013a5c83609681
