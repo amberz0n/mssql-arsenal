@@ -184,7 +184,7 @@ The GUI provides an intuitive tabbed interface for configuring scans, monitoring
 
 **Scan Configuration Tab:**
 
-[https://assets/gui\_scan\_config.png](https://assets/gui_scan_config.png)
+![alt](https://raw.githubusercontent.com/amberz0n/mssql-arsenal/refs/heads/main/assets/gui_scan_config.png)
 
 *The main scan configuration interface – target, ports, dictionaries, authentication, and exploit settings.*
 
@@ -210,7 +210,7 @@ Workers automatically pull pending tasks from the master, perform full assessmen
 
 **Distributed Management Tab:**
 
-[https://assets/gui\_distributed.png](https://assets/gui_distributed.png)
+![alt](https://raw.githubusercontent.com/amberz0n/mssql-arsenal/refs/heads/main/assets/gui_distributed.png)
 
 *Easily start/stop master and worker nodes directly from the GUI.*
 
@@ -255,7 +255,7 @@ All modules are loosely coupled, allowing easy extension and customization.
 
 The GUI features a dedicated results table that aggregates all discovered targets, including their status, cracked credentials (masked by default), version information, honeypot scores, and detected CVEs.
 
-[https://assets/gui\_results.png](https://assets/gui_results.png)
+![alt](https://raw.githubusercontent.com/amberz0n/mssql-arsenal/refs/heads/main/assets/gui_result.png)
 
 *Comprehensive results view with real‑time updates and export capabilities.*
 
