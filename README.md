@@ -134,7 +134,7 @@ The framework supports both **command‑line** and **graphical (PyQt6)** interfa
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mssql-arsenal.git
+git clone https://github.com/amberz0n/mssql-arsenal
 cd mssql-arsenal
 
 # (Optional) Create and activate a virtual environment
